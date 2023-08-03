@@ -47,7 +47,7 @@ body {
 }
 /* FlexBox  header*/
 
-header .container {
+.container .header {
     display: flex;
     height: 72px;
     border-bottom: 1px solid var(--accent);
@@ -55,7 +55,7 @@ header .container {
 
 .container .link-logo {
   display: flex;
-  margin: 24px 1169px 24px 156px;
+  margin-right: 76px;
   height: 24px;
   align-items: center;
   flex-shrink: 0;
