@@ -352,11 +352,29 @@ header .container {
 
 .nav, .navigation {
     display: flex;
-}
-.list-nav-h .navigation {
     align-items: center;
     margin-top: 24px;
     margin-bottom: 24px;
     padding: 24px 0;
     gap: 40px;
 }
+/* FlexBox  hero section */
+.container .main {
+    display: flex;
+    height: 600px;
+}
+
+.hero-section {
+    text-align: center;
+    padding: 188px 0;
+}
+.hero-button {
+    display: inline-flex;
+    padding: 16px 32px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 4px;
+    margin-top: 48px;
+    margin-bottom: 188px;
+}
+
