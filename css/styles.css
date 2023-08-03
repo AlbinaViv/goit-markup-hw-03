@@ -346,7 +346,11 @@ ol {
   flex-shrink: 0;
 
 }
-header .nav, .navigation {
+header .container {
+    display: flex;
+}
+
+.nav, .navigation {
     display: flex;
     align-items: center;
     margin-top: 24px;
