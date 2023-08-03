@@ -333,6 +333,8 @@ ol {
 .container .header {
     display: flex;
     height: 72px;
+}
+.header {
     border-bottom: 1px solid var(--accent);
 }
 
@@ -341,6 +343,7 @@ ol {
   margin-right: 76px;
   height: 24px;
   align-items: center;
+  gap: 40px;
   flex-shrink: 0;
 
 }
@@ -349,5 +352,6 @@ header .nav, .navigation {
     align-items: center;
     margin-top: 24px;
     margin-bottom: 24px;
+    padding: 24px 0
     gap: 40px;
 }
