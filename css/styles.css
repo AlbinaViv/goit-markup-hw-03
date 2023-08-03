@@ -367,14 +367,16 @@ header .container {
 .hero-section {
     text-align: center;
     padding: 188px 0;
+    max-width: 496px;
 }
 .hero-button {
-    display: inline-flex;
+    display: block;
     padding: 16px 32px;
     align-items: flex-start;
     gap: 10px;
     border-radius: 4px;
     margin-top: 48px;
     margin-bottom: 188px;
+    max-width: 496px;
 }
 
