@@ -42,6 +42,7 @@ body {
     max-width: 1158px;
     margin: 0 auto;
     padding: 0 15px;
+    display: flex;
 
 }
 /* FlexBox  header*/
@@ -54,10 +55,17 @@ body {
 
 .container .link-logo {
   display: flex;
-  margin: 24 1169 24 156;
+  margin: 24px 1169px 24px 156px;
   height: 24px;
   align-items: center;
   flex-shrink: 0;
+
+  .container .link-logo {
+    display: flex;
+    margin: 24 1169 24 156;
+    height: 24px;
+    align-items: center;
+    flex-shrink: 0;
 
 }
 .container .nav {
