@@ -21,6 +21,7 @@ body {
     font-style: normal;
     margin: 0;
 }
+
 .visually-hidden {
     position: absolute;
     width: 1px;
@@ -32,15 +33,36 @@ body {
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
     overflow: hidden;
-    }
+  }
 
 .container { 
- max-width: 1158px;
- padding: 0 15px;
- margin-left: 141px;
- margin-right: 141px;
- margin: 0 auto;
+    max-width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px;
+
 }
+/* FlexBox  header*/
+
+header .container {
+    display: flex;
+    height: 72px;
+    border-bottom: 1px solid var(--accent);
+
+
+}
+
+.container .link-logo {
+  display: flex;
+  margin: 24 1169 24 156;
+  height: 24px;
+  align-items: center;
+  flex-shrink: 0;
+
+}
+.container .nav {
+    display: flex;
+    
+    }
 
 .list {
   list-style-type: none;  
@@ -50,10 +72,7 @@ body {
   text-decoration: none;
 }
 
-.header .container {
-    display: flex;
-    justify-content: center;
-}
+
 /* lodo */
 
 .link-logo {
@@ -65,12 +84,20 @@ body {
     line-height: 1.17;
     letter-spacing: 0.54px;
     text-transform: uppercase;
+    margin: 24px 76px 24px 156px;
 }
 .accent {
     color: var(--dark);
 }
 
 /*  header*/
+
+header .nav {
+    display: flex;
+    margin-top: 24px;
+    margin-bottom: 24px;
+    margin-left: 156px;
+}
      
 .list-nav:hover {
     color: var(--pressed-state);
@@ -89,6 +116,10 @@ body {
     text-transform: capitalize;
     text-decoration: none;
     font-family: 'Roboto', sans-serif;
+    align-items: center;
+    gap: 40px;
+    display: flex;
+
 }
 
 .link-mail-tel:hover {
@@ -109,11 +140,21 @@ body {
     text-decoration: none;
     font-family: 'Roboto', sans-serif;
 }
+
+header .navigation {
+    display: flex;
+    align-items: center;
+    margin-top: 24px;
+    margin-right: 156px;
+    margin-bottom: 24px;
+    gap: 40px;
+}
 .navigation {    
 font-style: normal;
 color: var(--text);
 
 }
+
 
 /* style on main */
 
