@@ -350,7 +350,7 @@ header .container {
     display: flex;
 }
 
-.container .nav .navigation {
+.list-nav-h .list-navigation {
     display: flex;
     align-items: center;
     margin-top: 24px;
