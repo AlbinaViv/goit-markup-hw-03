@@ -341,33 +341,34 @@ ol {
 .container .link-logo {
   display: flex;
   margin-right: 76px;
-  height: 24px;
   align-items: center;
   flex-shrink: 0;
 
 }
 header .container {
     display: flex;
+    justify-content: space-between;
 }
 
 .nav, .navigation {
     display: flex;
     align-items: center;
-    margin-top: 24px;
-    margin-bottom: 24px;
     padding: 24px 0;
     gap: 40px;
 }
+.list-nav, .link-mail-tel {
+    padding: 24px 0;
+}
 /* FlexBox  hero section */
-.container .main {
+.container .hero-section {
     display: flex;
-    height: 600px;
+    max-width: 496px;
+    min-width: 169px;
 }
 
 .hero-section {
     text-align: center;
     padding: 188px 0;
-    max-width: 496px;
 }
 .hero-button {
     display: block;
@@ -377,6 +378,12 @@ header .container {
     border-radius: 4px;
     margin-top: 48px;
     margin-bottom: 188px;
-    max-width: 496px;
 }
+/* FlexBox  advant section */
 
+.container .advan-section {
+    display: flex;
+    justify-content: space-between;
+
+    
+}
