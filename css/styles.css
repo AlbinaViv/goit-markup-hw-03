@@ -381,18 +381,21 @@ header .container {
 }
 /* FlexBox  advant section */
 
+.container-advan {
+    padding: 120px 0;
+}
+
 .advan-list {
     display: flex;
     flex-wrap: wrap;
     gap: 24px;
-    padding: 120px 0;
-    align-items: center;
-
+    
 }
 
 .advan-list__item {
     flex: 1 1 calc((100% - 3 * 24px) / 4);
     min-width: 200px;
+    align-items: center;
 }
 .advantages {
     margin-bottom: 8px;  
