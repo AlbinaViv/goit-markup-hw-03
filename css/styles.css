@@ -347,8 +347,7 @@ header .container {
 }
 .header {
     border-bottom: 1px solid var(--accent);
-  }
-
+}
 
 .nav, .navigation {
     display: flex;
@@ -356,9 +355,7 @@ header .container {
     padding: 24px 0;
     gap: 40px;
 }
-.list-nav, .link-mail-tel {
-    padding: 24px 0;
-}
+
 /* FlexBox  hero section */
 .container .hero-section {
     display: flex;
