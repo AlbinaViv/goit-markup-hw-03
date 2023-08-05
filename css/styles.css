@@ -23,7 +23,9 @@ body {
 
 
 .list {
-  list-style-type: none;  
+  list-style-type: none; 
+  padding: 0; 
+  margin: 0;
 }
 .link {
   list-style: none;  
@@ -309,7 +311,10 @@ color: var(--text);
 
 img {
     display: block 
+    max-width: 100%;
+    height: auto;
 }
+
 h1,
 h2,
 h3,
@@ -322,6 +327,7 @@ ul,
 ol {
   margin: 0;
 }
+
 
 .container { 
     max-width: 1158px;
