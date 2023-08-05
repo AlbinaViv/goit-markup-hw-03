@@ -39,7 +39,6 @@ body {
     color: var(--primary-dark);
     font-family: 'Raleway', sans-serif;
     font-size: 18px;
-    font-style: normal;
     font-weight: 800;
     line-height: 1.17;
     letter-spacing: 0.54px;
@@ -69,7 +68,6 @@ body {
     list-style: none;
     text-transform: capitalize;
     text-decoration: none;
-    font-family: 'Roboto', sans-serif;
     align-items: center;
     gap: 40px;
     display: flex;
@@ -338,6 +336,7 @@ ol {
   display: flex;
   margin-right: 76px;
   flex-shrink: 0;
+  align-items: center;
 
 }
 header .container {
@@ -359,24 +358,25 @@ header .container {
 }
 
 /* FlexBox  hero section */
-.container .hero-section {
-    display: flex;
-    max-width: 496px;
-    min-width: 169px;
-}
+
 
 .hero-section {
+    display: flex;
     text-align: center;
     padding: 188px 0;
 }
+.hero-title {
+    max-width: 496px;
+    padding-bottom: 48px;
+}
 .hero-button {
     display: block;
+    min-width: 169px
+    border-radius: 4px;
+    display: inline-flex;
     padding: 16px 32px;
     align-items: flex-start;
-    gap: 10px;
-    border-radius: 4px;
-    margin-top: 48px;
-    margin-bottom: 188px;
+
 }
 /* FlexBox  advant section */
 
