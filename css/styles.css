@@ -381,7 +381,7 @@ header .container {
 }
 /* FlexBox  advant section */
 
-.container-advan {
+.advan-section {
     padding: 120px 0;
 }
 
@@ -399,4 +399,14 @@ header .container {
 }
 .advantages {
     margin-bottom: 8px;  
+}
+/* ------doing section------*/
+
+.doing-section {
+    padding: 120px 0;
+}
+/* ------team-section------*/
+
+.team-section {
+    padding: 120px 0;
 }
