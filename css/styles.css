@@ -352,6 +352,8 @@ header .container {
 .nav, .navigation {
     display: flex;
     align-items: center;
+}
+.list-nav, .link-mail-tel {
     padding: 24px 0;
     gap: 40px;
 }
