@@ -371,12 +371,11 @@ header .container {
 }
 .hero-button {
     display: block;
-    min-width: 169px
+    min-width: 169px;
     border-radius: 4px;
     display: inline-flex;
     padding: 16px 32px;
     align-items: flex-start;
-
 }
 /* FlexBox  advant section */
 
