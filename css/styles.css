@@ -310,7 +310,7 @@ color: var(--text);
   }
 
 img {
-    display: block 
+    display: block; 
     max-width: 100%;
     height: auto;
 }
@@ -340,12 +340,14 @@ ol {
   flex-shrink: 0;
 
 }
-header .container{
+header .container {
     display: flex;
     justify-content: space-between;
     height: 72px;
     border-bottom: 1px solid var(--accent);
+
 }
+
 
 .nav, .navigation {
     display: flex;
