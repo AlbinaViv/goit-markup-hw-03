@@ -219,6 +219,8 @@ color: var(--text);
     color: var(--primary-dark);
     background-color: var(--light);
     text-align: center;
+    min-width: 69px;
+    min-height: 48px;
     letter-spacing: 0.04em;
     font-size: 16px;
     font-style: normal;
@@ -379,9 +381,19 @@ header .container {
 }
 /* FlexBox  advant section */
 
-.container .advan-section {
+.advan-list {
     display: flex;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 24px;
+    padding: 120px 0;
+    align-items: center;
 
-    
+}
+
+.advan-list__item {
+    flex: 1 1 calc((100% - 3 * 24px) / 4);
+    min-width: 200px;
+}
+.advantages {
+    margin-bottom: 8px;  
 }
