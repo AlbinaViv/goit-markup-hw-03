@@ -197,6 +197,9 @@ color: var(--text);
     letter-spacing: 0.02em;
     text-align: center;
     text-transform: capitalize;
+    padding-top: 120px;
+    margin-bottom: 72px;
+    text-align: center;
 }
 .team-foto {
     background-color: var(--white-background);
@@ -430,26 +433,26 @@ header .container {
 
 /* ------team-section------*/
 
-.team-section {
-    padding: 120px 0;
-}
-.team {
-    margin-bottom: 72px;
-}
+
+
 .team-foto {
     flex-basis: calc((100% - 72px) / 4);
     border-radius: 0px 0px 4px 4px;
+    box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+
   }
 .title-card {
     padding: 32px 0;
-}
+
+  }
 
 .team-name {
+    display: flex;
     text-align: center;
     margin-bottom: 8px;
 }
 
 .team-job {
     text-align: center; 
-}
+  }
   
