@@ -196,8 +196,6 @@ color: var(--text);
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-    padding-top: 120px;
-    margin-bottom: 72px;
     text-align: center;
 }
 .team-foto {
@@ -227,7 +225,7 @@ color: var(--text);
     font-size: 16px;
     font-weight: 400;
     line-height: 1.5; /* 1,5 */
-    letter-spacing: 0.02em
+    letter-spacing: 0.02em;
     text-align: center;
     padding-botton: 32px;
 }
@@ -439,8 +437,10 @@ header .container {
 }
 
 /* ------team-section------*/
+.team-section {
+    display: flex;
+    padding: 120px 0;
 
-
+}
 .title-card {
-    padding-bottom: 32px;
 }
