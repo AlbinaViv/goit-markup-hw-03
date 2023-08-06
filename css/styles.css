@@ -239,12 +239,14 @@ color: var(--text);
 .card-set-title {
     padding: 32px 16px;
     border: 1px solid var(--accent);
+    border-top: none; 
 }
 
 .all {
     color: var(--primary-dark);
     background-color: var(--light);
-    text-align: center;
+    border: 1px solid var(--accent);
+    align-items: center;
     min-width: 69px;
     min-height: 48px;
     letter-spacing: 0.04em;
@@ -259,6 +261,8 @@ color: var(--text);
     font-family: "Roboto", sans-serif; 
     display: flex;
     margin-bottom: 72px;
+    border-radius: 4px;
+    padding: 12px 24px;
 }
 
 .all:hover {
@@ -266,11 +270,13 @@ color: var(--text);
     background-color: var(--pressed-state);
     border: none;
     text-align: center;
+    border: 1px solid transparent;
 
  }
  .all:focus {
     color: var(--white-background);
-    background-color: var(--pressed-state)
+    background-color: var(--pressed-state);
+    border: 1px solid transparent;
  }
 /* cards-section */
 
