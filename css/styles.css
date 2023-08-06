@@ -388,10 +388,9 @@ header .container {
     display: inline-flex;
     padding: 16px 32px;
     align-items: flex-start;
+    margin: 0 auto;
 }
-.all {
-    display: block;
-}
+
 /* FlexBox  advant section */
 
 .advan-section {
