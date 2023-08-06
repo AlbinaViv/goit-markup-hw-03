@@ -71,6 +71,7 @@ body {
     align-items: center;
     gap: 40px;
     display: flex;
+    justify-content: center;
 
 }
 
@@ -256,7 +257,8 @@ color: var(--text);
     text-decoration: none;  
     cursor: pointer; 
     font-family: "Roboto", sans-serif; 
-    display: block;
+    display: flex;
+    margin-bottom: 72px;
 }
 
 .all:hover {
