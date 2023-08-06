@@ -388,7 +388,7 @@ header .container {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  background-color: var(--primary-brand-color);
+  background-color: var(--primary-dark);
   border-radius: 4px;
   border: none;
   padding: 16px 32px;
