@@ -186,8 +186,6 @@ color: var(--text);
  
 .team-section {
     background-color: var(--light);
-    display: flex;
-    padding: 120px 0;
 }
 
 .team {
@@ -219,7 +217,6 @@ color: var(--text);
     text-align: center;
     text-transform: capitalize;
     margin-bottom: 8px;
-    padding-top: 32px;
 
 }
 
@@ -290,6 +287,8 @@ color: var(--text);
 .footer {
     background-color: #2E2F42;
     color: #FFFFFF;
+    display: block;
+    padding: 100px 0;
 }
 .link-logo-f {
     color: var(--primary-dark);
@@ -301,6 +300,10 @@ color: var(--text);
     letter-spacing: 0.03em;
     text-transform: uppercase;
     text-decoration: none;
+    display: inline-block;
+    margin-bottom: 16px;
+    flex-shrink: 0;
+    align-items: center;
 }
 
 .accent-footer {
@@ -311,6 +314,9 @@ color: var(--text);
     color: var(--light);
     line-height: 1.5; 
     letter-spacing: 0.02em;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 264px;
 }
 
 
@@ -442,6 +448,6 @@ header .container {
 
 /* ------team-section------*/
 
-.title-card {
-    padding: 32px 0;
-}
+
+/* ------footer------*/
+
