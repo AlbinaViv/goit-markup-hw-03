@@ -421,8 +421,12 @@ header .container {
     margin-bottom: 72px;
 
 }
-.doing-foto {
-    flex-basis: calc((100% - 48px);
+.list-doing {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px; 
+    flex-basis: calc((100% - 48px); 
+
 }
 
 /* ------team-section------*/
