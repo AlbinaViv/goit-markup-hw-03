@@ -231,6 +231,7 @@ color: var(--text);
     text-decoration: none;  
     cursor: pointer; 
     font-family: "Roboto", sans-serif; 
+    display: flex;
 }
 
 .all:hover {
@@ -419,8 +420,8 @@ header .container {
 
 }
 .doing-foto {
-    flex-basis: calc((100% - 3 * 24px) / 3);
-  }
+    flex-basis: calc((100% - 48px);
+}
 
 /* ------team-section------*/
 
