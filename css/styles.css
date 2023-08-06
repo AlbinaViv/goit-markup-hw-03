@@ -236,6 +236,10 @@ color: var(--text);
     padding-top: 96px; 
     padding-bottom: 120px; 
 }
+.list-button {
+    gap: 24px; 
+    margin-bottom: 72px;
+}
 .card-set-title {
     padding: 32px 16px;
     border: 1px solid var(--accent);
@@ -260,7 +264,6 @@ color: var(--text);
     cursor: pointer; 
     font-family: "Roboto", sans-serif; 
     display: flex;
-    margin-bottom: 72px;
     border-radius: 4px;
     padding: 12px 24px;
 }
