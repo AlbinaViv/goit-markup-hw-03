@@ -258,7 +258,6 @@ color: var(--text);
     font-style: normal;
     font-weight: 500;
     line-height: 1.5;
-    border: none;
     list-style: none;
     text-decoration: none;  
     cursor: pointer; 
