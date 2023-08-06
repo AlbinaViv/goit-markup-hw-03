@@ -231,6 +231,14 @@ color: var(--text);
 
 }
 /* buttons sections */
+.butt-section {
+    padding-top: 96px; 
+    padding-bottom: 120px; 
+}
+.card-set-title {
+    padding: 32px 16px;
+    border: 1px solid var(--accent);
+}
 
 .all {
     color: var(--primary-dark);
@@ -362,6 +370,7 @@ ol {
 }
 .card-set-item {
     flex-basis: calc((100% - 48px * 2) / 3);
+    background: var(--white-background);
 }
 
 .container { 
