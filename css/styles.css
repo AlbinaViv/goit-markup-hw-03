@@ -186,6 +186,8 @@ color: var(--text);
  
 .team-section {
     background-color: var(--light);
+    display: flex;
+    padding: 120px 0;
 }
 
 .team {
@@ -197,6 +199,7 @@ color: var(--text);
     letter-spacing: 0.02em;
     text-transform: capitalize;
     text-align: center;
+    margin-bottom: 72px;
 }
 .team-foto {
     background-color: var(--white-background);
@@ -437,10 +440,4 @@ header .container {
 }
 
 /* ------team-section------*/
-.team-section {
-    display: flex;
-    padding: 120px 0;
 
-}
-.title-card {
-}
