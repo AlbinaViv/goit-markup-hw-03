@@ -382,13 +382,11 @@ header .container {
     padding-bottom: 48px;
 }
 .hero-button {
-  color: var(--white-background);
   font-family: inherit;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  background-color: var(--primary-dark);
   border-radius: 4px;
   border: none;
   padding: 16px 32px;
