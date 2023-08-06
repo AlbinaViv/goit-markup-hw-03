@@ -381,14 +381,22 @@ header .container {
     max-width: 496px;
     padding-bottom: 48px;
 }
-button.hero-button {
-    display: block;
-    min-width: 169px;
-    border-radius: 4px;
-    display: inline-flex;
-    padding: 16px 32px;
-    align-items: flex-start;
-    margin: 0 auto;
+.hero-button {
+  color: var(--white-background-color);
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  background-color: var(--primary-brand-color);
+  border-radius: 4px;
+  border: none;
+  padding: 16px 32px;
+  display: block;
+  margin: 0 auto;
+  cursor: pointer;
+  min-width: 169px;
+  height: 56px;
 }
 
 /* FlexBox  advant section */
