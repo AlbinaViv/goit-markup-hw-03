@@ -187,6 +187,8 @@ color: var(--text);
  
 .team-section {
     background-color: var(--light);
+    padding: 120px 0;
+    
 }
 
 .team {
