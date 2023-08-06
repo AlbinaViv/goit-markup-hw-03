@@ -230,7 +230,8 @@ color: var(--text);
     line-height: 1.5; /* 1,5 */
     letter-spacing: 0.02em;
     text-align: center;
-    padding-botton: 32px;
+    padding-bottom: 32px;
+
 }
 /* buttons sections */
 
@@ -441,3 +442,6 @@ header .container {
 
 /* ------team-section------*/
 
+.title-card {
+    padding: 32px 0;
+}
